@@ -35,4 +35,4 @@ def result(request):
         answer= 'check the enterd data, wether correct or not'
     
 
-    return render(request,'result.html',{'answer':answer,"you enterd data":list})
+    return render(request,'result.html',{'answer':answer,"list":list})
